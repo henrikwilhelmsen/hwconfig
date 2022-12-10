@@ -16,7 +16,7 @@ if test -d (brew --prefix)"/share/fish/vendor_completions.d"
 end
 
 # Activate oh-my-posh
-oh-my-posh --init --shell fish --config https://gist.github.com/henrikwilhelmsen/05f24c9cae045d58571d6695344bbbdd/raw/hul10_hw.omp.json | source
+oh-my-posh --init --shell fish --config https://raw.githubusercontent.com/henrikwilhelmsen/hwconfig/main/ohmyposh/hw_hul10.omp.json | source
 
 # pyenv setup
 pyenv init - | source
